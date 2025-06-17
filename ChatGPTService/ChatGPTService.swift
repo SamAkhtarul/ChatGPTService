@@ -2,7 +2,7 @@ import Foundation
 import Combine
 
 class ChatGPTService: ObservableObject {
-    private let apiKey = "sk-...0M4y" // Replace with your actual API key
+    private let apiKey = "YOIUR API" // Replace with your actual API key
 
     func sendMessage(_ message: String, completion: @escaping (String?) -> Void) {
         guard let url = URL(string: "https://api.openai.com/v1/chat/completions") else {
